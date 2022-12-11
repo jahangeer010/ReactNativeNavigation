@@ -1,10 +1,10 @@
-import { configureStore} from "@reduxjs/toolkit";
-import navSlice from "./navSlice";
-
-
-export const Store=configureStore({
+import { configureStore } from "@reduxjs/toolkit";
+import cartSlice from "./cartSlice";
+export const store=configureStore({
     reducer:{
-        nav:navSlice,
-    }
+        cart:cartSlice,
 
+
+    }
 })
+
